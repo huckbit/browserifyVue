@@ -1,0 +1,21 @@
+{
+  "name": "es6project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify ./src/main.js -o js/bundle.js",
+    "watch": "watchify ./src/main.js -o js/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "vue": "^2.6.10",
+    "watchify": "^3.11.1"
+  },
+  "browser": {
+    "vue": "vue/dist/vue.common.js"
+  }
+}
