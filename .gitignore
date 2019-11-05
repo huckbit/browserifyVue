@@ -37,13 +37,11 @@ logs
 **/*.back.*
 
 node_modules
-bower_componets
+js/bundle.js
+
 
 *.sublime*
 
-psd
-thumb
-sketch
 
 # End of https://www.gitignore.io/api/linux,visualstudiocode,vue
 
